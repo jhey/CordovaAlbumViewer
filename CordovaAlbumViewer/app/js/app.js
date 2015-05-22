@@ -43,7 +43,7 @@
                         templateUrl: "app/views/options.html"
                     })
                     .otherwise({
-                        redirectTo: '/albums'
+                        redirectTo: '/about'
                     });
 
                 // Fix bug for Windows Phone wanting to download files on urls with routed parameters
